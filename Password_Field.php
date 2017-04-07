@@ -8,7 +8,7 @@ class Password_Field extends Text_Field {
 	 */
 	public function template() {
 		?>
-		<input id="{{{ id }}}" type="password" name="{{{ name }}}" value="{{ value }}" class="regular-text" />
+		<input id="{{{ id }}}" type="password" name="{{{ name }}}" value="{{ value }}" class="regular-text" autocomplete="false" />
 		<?php
 	}
 }
